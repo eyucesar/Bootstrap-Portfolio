@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #6a781f;
+    padding-top: 50px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    font-size: 30px;
+    color: #3d4413;
+}
+
+.navbar-default {
+	background: white;
+	border-color: #8da02a;
+	font-family: 'ABeeZee', sans-serif;
+	width: 100%;
+}
+
+h1 {
+	padding-left: 20px;
+	color: #6a781f;
+	font-size: 30px;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.thumbnail {
+	width: 280px;
+	height: auto;
+	border: 1px solid #6a781f;
+	float: left;
+	position: relative;
+}
+
+.thumbnail:hover {
+	width: 310px;
+	height: auto;
+}
+
+.panel-title {
+	text-align: center;
+	font-size: 20px;
+}
+
+img.social {
+	width: 62px;
+	height: auto;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+img.social:hover {
+	width: 72px;
+	height: auto;
+	border-radius: 3px;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	min-height: 100%;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+#footer {
+ 	height: 60px;
+ 	background-color: #e7eec2;
+ 	border: 1px solid #6a781f;
+ 	border-radius: 3px;
+ 	width: 100%;
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+}
+
+.copyright {
+	text-align: center;
+	color: #353c0f;
+	font-size: 10px;
+	padding-top: 20px;
+}
+
+.panel-default {
+	border: 1px solid #6a781f;
+	border-color: #6a781f;
+}
+
+.panel-body {
+	border-top: 1px solid #6a781f;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.panel {
+	width: 280px;
+	height: auto;
+	position: absolute;
+	top: -146px;
+	left: 40px;
+}
+
+.panel.panel-default {
+	background: #f7f9ea;
+}
+
+.panel-default>.panel-heading {
+    color: #58641a;
+    background-color: #e7eec2;
+}
+
+.portfoliothumbnail img {
+	width: 300px;
+	height: auto;
+	border: 1px solid #6a781f;
+	position: relative;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+
+img {
+	border-radius: 5px;
+}
+
+h3 {
+	color: #6a781f;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+.caption h3 {
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+.caption h3:hover {
+	font-size: 20px;
+	background-color: #768421;
+	color: #c9db69;
+}
+
+.hangman, .rpgGame, .triviaGame, .rutgers, .rps, .virtualReality {
+	position: absolute;
+	top: 135px;
+	left: 35px;
+	background-color: #c9db69;
+	width: 300px;
+	height: 60px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 20px;
+	color: #485115;
+	border: 1px solid #6a781f;
+}
+
+btn-group-lg>.btn, .btn-lg {
+    padding: 7px 11px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 3px;
+    float: left;
+    background-color: #465015;
+    border: 1px solid #465015;
+}
+
+btn-group-lg>.btn, .btn-lg:hover {
+	background-color: #8ca029;
+}
+
+btn-group-lg>.btn, .btn-lg:active {
+	background-color: #8ca029;
+}
+
+.form-horizontal .control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+    color: #58641a;
+}
+
+.form-control {
+    display: block;
+    width: 500px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #6a781f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #6a781f;
+    border-radius: 3px;
+}
+
+textarea.form-control {
+	height: 250px;
+	width: 500px;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	overflow: hidden;
+	margin-right: 80px;
+	margin-left: 40px;
+}
+
+.col-sm-8 {
+	background-color: #e7eec2;
+	border: 1px solid #6a781f;
+	border-radius: 5px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 60%;
+	margin-bottom: 100px;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #c6cf94;
+}
+
+.new-col-sm-8 {
+	overflow: hidden;
+}
+
