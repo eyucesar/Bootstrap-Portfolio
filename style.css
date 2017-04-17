@@ -5,6 +5,7 @@
 body {
 	width: 100%;
 	font-family: 'Ubuntu', sans-serif;
+	background-color:  #e7eec2;
 }
 
 a {
@@ -75,13 +76,12 @@ html, body {
 .container {
 	min-height: 100%;
 	height: auto;
-	margin-top: 50px;
-	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #footer {
  	height: 60px;
- 	background-color: #e7eec2;
+ 	background-color: white;
  	border: 1px solid #6a781f;
  	border-radius: 3px;
  	width: 100%;
@@ -113,17 +113,17 @@ html, body {
 	width: 280px;
 	height: auto;
 	position: absolute;
-	top: -146px;
+	top: -60px;
 	left: 40px;
 }
 
 .panel.panel-default {
-	background: #f7f9ea;
+	background: white;
 }
 
 .panel-default>.panel-heading {
     color: #58641a;
-    background-color: #e7eec2;
+    background-color: #f7f9ea;
 }
 
 .portfoliothumbnail img {
@@ -132,7 +132,6 @@ html, body {
 	border: 1px solid #6a781f;
 	position: relative;
 	margin-bottom: 30px;
-	margin-left: 20px;
 }
 
 img {
@@ -158,7 +157,7 @@ h3 {
 .hangman, .rpgGame, .triviaGame, .rutgers, .rps, .virtualReality {
 	position: absolute;
 	top: 135px;
-	left: 35px;
+	left: 15px;
 	background-color: #c9db69;
 	width: 300px;
 	height: 60px;
@@ -167,6 +166,10 @@ h3 {
 	padding-top: 20px;
 	color: #485115;
 	border: 1px solid #6a781f;
+}
+
+.rps, .virtualReality {
+	margin-bottom: 100px;
 }
 
 btn-group-lg>.btn, .btn-lg {
@@ -192,6 +195,7 @@ btn-group-lg>.btn, .btn-lg:active {
     margin-bottom: 0;
     text-align: left;
     color: #58641a;
+    font-size: 16px;
 }
 
 .form-control {
@@ -206,6 +210,10 @@ btn-group-lg>.btn, .btn-lg:active {
     background-image: none;
     border: 1px solid #6a781f;
     border-radius: 3px;
+}
+
+.form-control:focus {
+	border: 2px solid #6a781f;
 }
 
 textarea.form-control {
@@ -237,7 +245,6 @@ p {
     border-bottom: 1px solid #c6cf94;
 }
 
-.new-col-sm-8 {
+.new-col-md-8 {
 	overflow: hidden;
 }
-
